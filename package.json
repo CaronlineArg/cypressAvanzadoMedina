@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress open --e2e -b electron",
+    "test": "npx cypress open --e2e -b electron 'SomeTestFileToRun'",
     "runOnlineShop": "npx cypress run --spec 'cypress/e2e/online-shop/**/**.cy.js*'"
   },
   "repository": {
